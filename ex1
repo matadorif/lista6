@@ -1,0 +1,28 @@
+#include<stdio.h>
+
+int main(){
+	
+	int v[8], e = 0 , n, i, j;
+	
+	srand(time(NULL));
+	
+	for(i = 0; i < 8; i++){
+		v[i] = rand() % 100;	
+		printf("%d ", v[i]);
+	}
+	
+	printf("\nDigite um numero inteiro: ");
+	scanf("%d", &n);
+	
+	for(j = 0; j < v[j]; j++){
+		if(n == v[j]){
+			printf("O numero exise no vetor e esta na posicao %d", j);
+			e = 1;
+		}
+	}
+	
+	if(e == 0){
+		printf("Numero inexistente no vetor");
+	}
+	
+}
