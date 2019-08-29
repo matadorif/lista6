@@ -7,13 +7,7 @@ int main(){
 	for(i = 0; i < 20; i++){
 		n = 97 + rand() % 25;
 		A[i] = n;
-		printf("%d ", A[i]);
-	}
-	
-	printf("\n");
-	
-	for(j = 0; j < A[j]; j++){
-		printf("%c ", A[j]);
+		printf("%d\t%c\n", A[i], A[i]);
 	}
 	
 }
